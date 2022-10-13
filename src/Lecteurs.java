@@ -1,12 +1,9 @@
 import java.io.File;
 
-public interface lecteurs {
+public interface Lecteurs {
 
 		public void readFile(String fileString);
 		
 		public void readReverseFile(String fileString);
-		
-		
-		
 		
 }

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_uzz2wEruEe2LdJ24AD6T2w">
+  <modelElement href="Lecteur.uml#_uv18wEruEe2LdJ24AD6T2w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vOwtYEruEe2LdJ24AD6T2w" sourceAnchor="176.0,0.0" targetAnchor="162.0,128.0" dashed="true" superClass="_vO0-0EruEe2LdJ24AD6T2w" subClass="_vOj5EEruEe2LdJ24AD6T2w">
+    <modelElement href="Lecteur.uml#_vLaecEruEe2LdJ24AD6T2w"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vPBMEEruEe2LdJ24AD6T2w" sourceAnchor="0.0,13.0" targetAnchor="353.0,114.0" superClass="_vOj5EEruEe2LdJ24AD6T2w" subClass="_vPDoUEruEe2LdJ24AD6T2w">
+    <modelElement href="Lecteur.uml#_vLFHQEruEe2LdJ24AD6T2w"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vOj5EEruEe2LdJ24AD6T2w" name="LecteurTextFileAbstract" abstractClass="true" generalizations="_vOwtYEruEe2LdJ24AD6T2w" subclassedBy="_vPBMEEruEe2LdJ24AD6T2w">
+    <modelElement href="Lecteur.uml#_vKAwQEruEe2LdJ24AD6T2w"/>
+    <visualProperties xmi:id="_vOj5EUruEe2LdJ24AD6T2w" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vOj5EkruEe2LdJ24AD6T2w" label="+"/>
+    <operations xmi:id="_vOj5E0ruEe2LdJ24AD6T2w" name="readFile">
+      <modelElement href="Lecteur.uml#_vKFBsEruEe2LdJ24AD6T2w"/>
+      <visibility xmi:id="_vOj5FEruEe2LdJ24AD6T2w" label="+"/>
+      <cardinality xmi:id="_vOj5FUruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vOj5FkruEe2LdJ24AD6T2w" name="fileString">
+        <modelElement href="Lecteur.uml#_vKFowEruEe2LdJ24AD6T2w"/>
+        <cardinality xmi:id="_vOj5F0ruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+        <type xmi:id="_vOj5GEruEe2LdJ24AD6T2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vOj5GUruEe2LdJ24AD6T2w" name="readPalindromeFile">
+      <modelElement href="Lecteur.uml#_vKG24EruEe2LdJ24AD6T2w"/>
+      <visibility xmi:id="_vOj5GkruEe2LdJ24AD6T2w" label="+"/>
+      <cardinality xmi:id="_vOj5G0ruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vOj5HEruEe2LdJ24AD6T2w" name="fileString">
+        <modelElement href="Lecteur.uml#_vKHd8EruEe2LdJ24AD6T2w"/>
+        <cardinality xmi:id="_vOj5HUruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+        <type xmi:id="_vOj5HkruEe2LdJ24AD6T2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vOj5H0ruEe2LdJ24AD6T2w" name="readReverseFile">
+      <modelElement href="Lecteur.uml#_vKJTIEruEe2LdJ24AD6T2w"/>
+      <visibility xmi:id="_vOj5IEruEe2LdJ24AD6T2w" label="+"/>
+      <cardinality xmi:id="_vOj5IUruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vOj5IkruEe2LdJ24AD6T2w" name="fileString">
+        <modelElement href="Lecteur.uml#_vKJ6MEruEe2LdJ24AD6T2w"/>
+        <cardinality xmi:id="_vOj5I0ruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+        <type xmi:id="_vOj5JEruEe2LdJ24AD6T2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_vO0-0EruEe2LdJ24AD6T2w" name="Lecteurs" subclassedBy="_vOwtYEruEe2LdJ24AD6T2w">
+    <modelElement href="Lecteur.uml#_vKOLoEruEe2LdJ24AD6T2w"/>
+    <visualProperties xmi:id="_vO0-0UruEe2LdJ24AD6T2w" position="44.0,-153.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vO0-0kruEe2LdJ24AD6T2w" label="+"/>
+    <operations xmi:id="_vO0-00ruEe2LdJ24AD6T2w" name="readFile">
+      <modelElement href="Lecteur.uml#_vKQn4EruEe2LdJ24AD6T2w"/>
+      <visibility xmi:id="_vO0-1EruEe2LdJ24AD6T2w" label="+"/>
+      <cardinality xmi:id="_vO0-1UruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vO0-1kruEe2LdJ24AD6T2w" name="fileString">
+        <modelElement href="Lecteur.uml#_vKRO8EruEe2LdJ24AD6T2w"/>
+        <cardinality xmi:id="_vO0-10ruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+        <type xmi:id="_vO0-2EruEe2LdJ24AD6T2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vO0-2UruEe2LdJ24AD6T2w" name="readReverseFile">
+      <modelElement href="Lecteur.uml#_vKSdEEruEe2LdJ24AD6T2w"/>
+      <visibility xmi:id="_vO0-2kruEe2LdJ24AD6T2w" label="+"/>
+      <cardinality xmi:id="_vO0-20ruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vO0-3EruEe2LdJ24AD6T2w" name="fileString">
+        <modelElement href="Lecteur.uml#_vKTEIEruEe2LdJ24AD6T2w"/>
+        <cardinality xmi:id="_vO0-3UruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+        <type xmi:id="_vO0-3kruEe2LdJ24AD6T2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vPDoUEruEe2LdJ24AD6T2w" name="Lecteur" generalizations="_vPBMEEruEe2LdJ24AD6T2w">
+    <modelElement href="Lecteur.uml#_vJ7QsEruEe2LdJ24AD6T2w"/>
+    <visualProperties xmi:id="_vPDoUUruEe2LdJ24AD6T2w" position="439.0,131.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vPDoUkruEe2LdJ24AD6T2w" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vPJu8EruEe2LdJ24AD6T2w" name="Main">
+    <modelElement href="Lecteur.uml#_vKUSQEruEe2LdJ24AD6T2w"/>
+    <visualProperties xmi:id="_vPJu8UruEe2LdJ24AD6T2w" position="355.0,285.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vPJu8kruEe2LdJ24AD6T2w" label="+"/>
+    <operations xmi:id="_vPJu80ruEe2LdJ24AD6T2w" name="main" staticOperation="true">
+      <modelElement href="Lecteur.uml#_vKWugEruEe2LdJ24AD6T2w"/>
+      <visibility xmi:id="_vPJu9EruEe2LdJ24AD6T2w" label="+"/>
+      <cardinality xmi:id="_vPJu9UruEe2LdJ24AD6T2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vPJu9kruEe2LdJ24AD6T2w" name="args">
+        <modelElement href="Lecteur.uml#_vKWugUruEe2LdJ24AD6T2w"/>
+        <cardinality xmi:id="_vPJu90ruEe2LdJ24AD6T2w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_vPJu-EruEe2LdJ24AD6T2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vPRqwEruEe2LdJ24AD6T2w" name="Exception">
+    <modelElement href="Lecteur.uml#_vLldkEruEe2LdJ24AD6T2w"/>
+    <visualProperties xmi:id="_vPRqwUruEe2LdJ24AD6T2w" position="428.0,424.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_vPRqwkruEe2LdJ24AD6T2w" name="Reference">
+      <modelElement href="Lecteur.uml#_vLn50EruEe2LdJ24AD6T2w"/>
+    </stereotypes>
+    <visibility xmi:id="_vPRqw0ruEe2LdJ24AD6T2w" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

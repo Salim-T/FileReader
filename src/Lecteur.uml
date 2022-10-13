@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_uv18wEruEe2LdJ24AD6T2w" name="Lecteur">
+    <eAnnotations xmi:id="_vENqQEruEe2LdJ24AD6T2w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_vENqQUruEe2LdJ24AD6T2w" source="codegen">
+        <details xmi:id="_vENqQkruEe2LdJ24AD6T2w" key="codegenDirectory" value="/Lecteur/src"/>
+        <details xmi:id="_vOKQcEruEe2LdJ24AD6T2w" key="AssociatedSourceCode" value="/Lecteur/src/Lecteur.java;98391880/1;/Lecteur/src/LecteurTextFileAbstract.java;2821376255/1;/Lecteur/src/Lecteurs.java;1179716968/1;/Lecteur/src/Main.java;3449978291/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_vJ9F4EruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ9F4UruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ9F4kruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ9s8EruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ9s8UruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ-UAEruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ-UAUruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ-UAkruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_vJ-7EEruEe2LdJ24AD6T2w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vJqK8EruEe2LdJ24AD6T2w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_vJqyAEruEe2LdJ24AD6T2w" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLGVYEruEe2LdJ24AD6T2w" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLKm0EruEe2LdJ24AD6T2w" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLORMEruEe2LdJ24AD6T2w" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLdhwEruEe2LdJ24AD6T2w" name="FileNotFoundException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vJtOQEruEe2LdJ24AD6T2w" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLTJsEruEe2LdJ24AD6T2w" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLXbIEruEe2LdJ24AD6T2w" name="Collections"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLhMIEruEe2LdJ24AD6T2w" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vLk2gEruEe2LdJ24AD6T2w" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_vLldkEruEe2LdJ24AD6T2w" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vJ7QsEruEe2LdJ24AD6T2w" name="Lecteur">
+      <generalization xmi:id="_vLFHQEruEe2LdJ24AD6T2w" general="_vKAwQEruEe2LdJ24AD6T2w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vKAwQEruEe2LdJ24AD6T2w" name="LecteurTextFileAbstract" isAbstract="true">
+      <interfaceRealization xmi:id="_vLaecEruEe2LdJ24AD6T2w" client="_vKAwQEruEe2LdJ24AD6T2w" supplier="_vKOLoEruEe2LdJ24AD6T2w" contract="_vKOLoEruEe2LdJ24AD6T2w"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vLpH8EruEe2LdJ24AD6T2w" name="readFile" specification="_vKFBsEruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vLpH8UruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>try {&#xD;
+			File file = new File (fileString);	&#xD;
+			if(file.exists()) {&#xD;
+			BufferedReader br = new BufferedReader(new FileReader(file));&#xD;
+			String line = br.readLine();&#xD;
+			System.out.println(&quot;Voici le contenu du fichier à l'endroit&quot;);&#xD;
+			while(line != null) {&#xD;
+				System.out.println(line);&#xD;
+				line = br.readLine();&#xD;
+			}&#xD;
+			br.close();&#xD;
+			}&#xD;
+		}&#xD;
+		catch(Exception e) {&#xD;
+			System.out.println(&quot;Erreur de lecture du fichier&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vLpvAEruEe2LdJ24AD6T2w" name="readPalindromeFile" specification="_vKG24EruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vLpvAUruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>try {&#xD;
+			File file = new File (fileString);	&#xD;
+			if(file.exists()) {&#xD;
+			BufferedReader br = new BufferedReader(new FileReader(file));&#xD;
+			StringBuilder line = new StringBuilder(br.readLine()).reverse();&#xD;
+			System.out.println(&quot;Voici le contenu du fichier à l'envers&quot;);&#xD;
+			while(line != null) {&#xD;
+				System.out.println(line);&#xD;
+				line = new StringBuilder(br.readLine()).reverse();&#xD;
+			}&#xD;
+			br.close();&#xD;
+			}&#xD;
+		}&#xD;
+		catch(Exception e) {&#xD;
+			System.out.println(&quot;&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vLqWEEruEe2LdJ24AD6T2w" name="readReverseFile" specification="_vKJTIEruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vLqWEUruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>try {&#xD;
+			File file = new File (fileString);	&#xD;
+			if(file.exists()) {&#xD;
+			BufferedReader br = new BufferedReader(new FileReader(file));&#xD;
+			ArrayList&lt;String> A = new ArrayList&lt;>();&#xD;
+			String line;&#xD;
+			while ((line = br.readLine()) != null) {&#xD;
+				A.add(line);&#xD;
+			}&#xD;
+			br.close();&#xD;
+			Collections.reverse(A);			&#xD;
+			for(String Lines : A) {&#xD;
+				System.out.print(Lines + &quot;\n&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		}&#xD;
+		catch(Exception e) {&#xD;
+			System.out.println(&quot;Erreur de lecture du fichier&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_vKFBsEruEe2LdJ24AD6T2w" name="readFile" method="_vLpH8EruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vKFowEruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vKG24EruEe2LdJ24AD6T2w" name="readPalindromeFile" method="_vLpvAEruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vKHd8EruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vKJTIEruEe2LdJ24AD6T2w" name="readReverseFile" method="_vLqWEEruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vKJ6MEruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_vKOLoEruEe2LdJ24AD6T2w" name="Lecteurs">
+      <ownedOperation xmi:id="_vKQn4EruEe2LdJ24AD6T2w" name="readFile">
+        <ownedParameter xmi:id="_vKRO8EruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vKSdEEruEe2LdJ24AD6T2w" name="readReverseFile">
+        <ownedParameter xmi:id="_vKTEIEruEe2LdJ24AD6T2w" name="fileString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vKUSQEruEe2LdJ24AD6T2w" name="Main">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vLq9IEruEe2LdJ24AD6T2w" name="main" specification="_vKWugEruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vLq9IUruEe2LdJ24AD6T2w" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vLrkMEruEe2LdJ24AD6T2w" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// Ici le programme demande à l'utilisateur le chemin du fichier&#xD;
+		&#xD;
+//		Scanner sc = new Scanner(System.in);&#xD;
+//		System.out.println(&quot;Veuillez saisir le chemin du fichier :&quot;);&#xD;
+//		String str = sc.nextLine();&#xD;
+// 		Ici, le chemin du fichier est déjà spécifié et à changer en fonction de l'emplacement du fichier.&#xD;
+		&#xD;
+			String str2 = &quot;file.txt&quot;;		&#xD;
+		    Lecteur lecteur = new Lecteur();&#xD;
+			lecteur.readFile(str2);&#xD;
+			System.out.println(&quot;&quot;);&#xD;
+			lecteur.readPalindromeFile(str2);&#xD;
+			System.out.println(&quot;&quot;);&#xD;
+			lecteur.readReverseFile(str2);&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_vKWugEruEe2LdJ24AD6T2w" name="main" isStatic="true" method="_vLq9IEruEe2LdJ24AD6T2w" raisedException="_vLldkEruEe2LdJ24AD6T2w">
+        <ownedParameter xmi:id="_vKWugUruEe2LdJ24AD6T2w" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vKX8oEruEe2LdJ24AD6T2w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_vEO4YEruEe2LdJ24AD6T2w">
+      <eAnnotations xmi:id="_vEPfcEruEe2LdJ24AD6T2w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_vEQGgEruEe2LdJ24AD6T2w" base_Package="_uv18wEruEe2LdJ24AD6T2w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_vLJ_wEruEe2LdJ24AD6T2w" base_Element="_vLGVYEruEe2LdJ24AD6T2w"/>
+  <UMLLabProfile:Reference xmi:id="_vLNqIEruEe2LdJ24AD6T2w" base_Element="_vLKm0EruEe2LdJ24AD6T2w"/>
+  <UMLLabProfile:Reference xmi:id="_vLR7kEruEe2LdJ24AD6T2w" base_Element="_vLORMEruEe2LdJ24AD6T2w"/>
+  <UMLLabProfile:Reference xmi:id="_vLW0EEruEe2LdJ24AD6T2w" base_Element="_vLTJsEruEe2LdJ24AD6T2w"/>
+  <UMLLabProfile:Reference xmi:id="_vLZQUEruEe2LdJ24AD6T2w" base_Element="_vLXbIEruEe2LdJ24AD6T2w"/>
+  <UMLLabProfile:Reference xmi:id="_vLglEEruEe2LdJ24AD6T2w" base_Element="_vLdhwEruEe2LdJ24AD6T2w"/>
+  <UMLLabProfile:Reference xmi:id="_vLjBUEruEe2LdJ24AD6T2w" base_Element="_vLhMIEruEe2LdJ24AD6T2w"/>
+  <UMLLabProfile:Reference xmi:id="_vLn50EruEe2LdJ24AD6T2w" base_Element="_vLldkEruEe2LdJ24AD6T2w"/>
+</xmi:XMI>
