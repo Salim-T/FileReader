@@ -17,13 +17,14 @@ public class Main {
 // 		Ici, le chemin du fichier est déjà spécifié et à changer en fonction de l'emplacement du fichier.
 		
 			String str2 = "file.txt";		
-		    Lecteur lecteur = new Lecteur();
+		    LecteurReader lecteur = new LecteurReader();
 			lecteur.readFile(str2);
 			System.out.println("");
-			lecteur.readPalindromeFile(str2);
+			LecteurReaderPalindrome lecteur2 = new LecteurReaderPalindrome();
+			lecteur2.readFile(str2);
 			System.out.println("");
-			lecteur.readReverseFile(str2);
-
+			LecteurReaderReverse lecteur3 = new LecteurReaderReverse();
+			lecteur3.readFile(str2);
 	}
 
 }
